@@ -266,7 +266,7 @@ function start() { // Inicio da função start()
 
         somExplosao.play();
         $("#fundoGame").append("<div id='explosao1'></div");
-        $("#explosao1").css("background-image", "url(../assets/jogo1/imgs/explosao.png)");
+        $("#explosao1").css("background-image", "url(../jogo-Resgate-nave/assets/jogo1/imgs/explosao.png)");
         var div = $("#explosao1");
         div.css("top", inimigo1Y);
         div.css("left", inimigo1X);
@@ -329,7 +329,7 @@ function start() { // Inicio da função start()
 
         somExplosao.play();
         $("#fundoGame").append("<div id='explosao2'></div");
-        $("#explosao2").css("background-image", "url(../assets/jogo1/imgs/explosao.png)");
+        $("#explosao2").css("background-image", "url(../jogo-Resgate-nave/assets/jogo1/imgs/explosao.png)");
         var div2 = $("#explosao2");
         div2.css("top", inimigo2Y);
         div2.css("left", inimigo2X);
@@ -393,22 +393,22 @@ function start() { // Inicio da função start()
 
         if (energiaAtual == 3) {
 
-            $("#energia").css("background-image", "url(../assets/jogo1/imgs/energia3.png)");
+            $("#energia").css("background-image", "url(../jogo-Resgate-nave/assets/jogo1/imgs/energia3.png)");
         }
 
         if (energiaAtual == 2) {
 
-            $("#energia").css("background-image", "url(../assets/jogo1/imgs/energia2.png)");
+            $("#energia").css("background-image", "url(../jogo-Resgate-nave/assets/jogo1/imgs/energia2.png)");
         }
 
         if (energiaAtual == 1) {
 
-            $("#energia").css("background-image", "url(../assets/jogo1/imgs/energia1.png)");
+            $("#energia").css("background-image", "url(../jogo-Resgate-nave/assets/jogo1/imgs/energia1.png)");
         }
 
         if (energiaAtual == 0) {
 
-            $("#energia").css("background-image", "url(../assets/jogo1/imgs/energia0.png)");
+            $("#energia").css("background-image", "url(../jogo-Resgate-nave/assets/jogo1/imgs/energia0.png)");
 
             //Game Over
             gameOver();
